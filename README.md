@@ -65,9 +65,3 @@ after
 - git checkout -b "report"
 
 - mkdir img
-
-## Форматированная история комитов
-
-git log --pretty=format:"%h - %an, %ar : %s"
-
-![alt_text](img/formated_log.png "formated git log")
